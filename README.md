@@ -36,7 +36,7 @@ O projeto permite que clientes realizem **reservas por horário marcado** e que 
 - **Infra local:** Docker (Postgres)
 
 ---
-
+```
 ## 📂 Estrutura do Projeto
 
 barberbooking-mvp/
@@ -56,10 +56,7 @@ barberbooking-mvp/
 │
 ├── docker-compose.yml # Postgres
 └── README.md
-
-yaml
-Copiar código
-
+```
 ---
 
 ## 🚀 Como Executar o Projeto
@@ -92,7 +89,7 @@ Copiar código
 http://localhost:5000/swagger
 3️⃣ Rodar o Front-end (Next.js)
 bash
-```
+
 Copiar código
 cd barberbooking-web
 npm install
@@ -101,8 +98,8 @@ npm run dev
 Aplicação:
 
 arduino
-Copiar código
 http://localhost:3000
+```
 🔑 Acesso Admin
 URL: http://localhost:3000/admin/login
 
@@ -119,8 +116,6 @@ Cancelar agendamentos
 
 📞 Número configurado:
 
-diff
-Copiar código
 +55 43 99152-3310
 A arquitetura já está pronta para futura integração com WhatsApp Business API (automação real).
 
