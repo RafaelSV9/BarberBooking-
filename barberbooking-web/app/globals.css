@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+/* opcional: base visual */
+:root { color-scheme: dark; }
+body { margin: 0; }
