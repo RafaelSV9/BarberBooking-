@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    container_name: barberbooking_db
+    environment:
+      POSTGRES_DB: barberbooking
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - barberbooking_pg:/var/lib/postgresql/data
+volumes:
+  barberbooking_pg:
